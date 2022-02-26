@@ -1,0 +1,17 @@
+.povimg{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;   
+    left: 0;
+    top: 0;
+    height:60vh;
+    width:100%;
+}
+.whatsappIcon{
+    width: 6%;
+    right: 4vw;
+    bottom: 3vh;
+    position: absolute;
+}
+.containerPov{
+    position: relative;
+}

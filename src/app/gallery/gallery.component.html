@@ -1,0 +1,11 @@
+<h2 style="text-align: center;margin-top: 15px;text-decoration-line: underline;">Our Gallery</h2>
+<mat-grid-list cols="4" rowHeight="100px">
+    <mat-grid-tile
+        *ngFor="let tile of tiles"
+        [colspan]="tile.cols"
+        [rowspan]="tile.rows"
+        >
+       <img src={{tile.src}} alt="img">
+    </mat-grid-tile>
+  </mat-grid-list>
+  

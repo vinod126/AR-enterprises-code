@@ -1,0 +1,18 @@
+.cardContent{
+    text-align: center;
+    height: 2vh !important;
+}
+
+.mat-card {
+    background: rgb(255 255 255 / 73%);
+    color: rgb(14 14 14);
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    position: relative;
+    padding: 16px;
+    border-radius: 30px;
+}
+
+.mat-card-subtitle, .mat-card-content {
+    font-size: 14px !important;
+}
